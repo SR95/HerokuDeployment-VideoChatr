@@ -76,6 +76,6 @@ app.post("/make-session", (req, res) => {
   });
 });
 
-const port = 80;
+const port = 5000;
 
 app.listen(port, () => console.log(`Server started on port ${port}`));
